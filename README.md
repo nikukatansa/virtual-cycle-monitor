@@ -1,1 +1,1 @@
-# virtual-cycle-monitor
+# virtual-walk-monitor
