@@ -6,7 +6,7 @@ import {
   features,
   route,
   full_dist
-} from './Bluefields_Fonseca_out_1.json'
+} from './Fonseca_Bluefields_out.json'
 
 
 import L from 'leaflet'
@@ -422,7 +422,7 @@ export default () => {
           </div>
           <h2 className="sponsor_details">
             Please{' '}
-            <a href="https://uk.virginmoneygiving.com/NicaraguaWalk">
+            <a href="https://www.justgiving.com/fundraising/sift-virtual-cycle">
               find out more and sponsor Graham
             </a>
             !
