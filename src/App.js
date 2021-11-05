@@ -408,7 +408,7 @@ export default () => {
       </div>
       <div id="summary_area">
         <div id="summary_stats">
-          <h1 className="summary_title">SIFT's Virtual Cycle Ride</h1>
+          <h1 className="summary_title">SIFT's Cycle to the Caribbean</h1>
           <div id="total_dist" className="summary_row">
             <div className="md_summary">Distance cycled: </div>
             <div className="lg_summary">
