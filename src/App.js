@@ -377,7 +377,7 @@ export default () => {
           /> */}
           <TileLayer
             url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors &bull; <a target="_blank" href="https://icons8.com/icons/set/walking">Walking</a>, <a target="_blank" href="https://icons8.com/icons/set/image">Image</a> icons by <a target="_blank" href="https://icons8.com">Icons8</a>'
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors &bull; <a target="_blank" href="https://icons8.com/icon/ITgKZ3xjWphi/person-biking">Cycling icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>'
           />
           <GeoJSON data={getGeoJSON()} style={styleRoute} />
           {legDirection === 'east' ? (
