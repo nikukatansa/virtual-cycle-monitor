@@ -2,12 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Map, GeoJSON, TileLayer, Circle, Marker } from 'react-leaflet'
 import './App.css'
 import { waypoints } from './route.json'
-import {
-  features,
-  route,
-  full_dist
-} from './Fonseca_Bluefields_out.json'
-
+import { features, route, full_dist } from './Lake_Nicaragua_clockwise_out.json'
 
 import L from 'leaflet'
 
@@ -408,7 +403,7 @@ export default () => {
       </div>
       <div id="summary_area">
         <div id="summary_stats">
-          <h1 className="summary_title">SIFT's Cycle to the Caribbean</h1>
+          <h1 className="summary_title">SIFT's Lakeside Loop</h1>
           <div id="total_dist" className="summary_row">
             <div className="md_summary">Distance cycled: </div>
             <div className="lg_summary">
@@ -422,7 +417,7 @@ export default () => {
           </div>
           <h2 className="sponsor_details">
             Please{' '}
-            <a href="https://www.justgiving.com/fundraising/sift-virtual-cycle">
+            <a href="https://www.justgiving.com/fundraising/lakesideloop">
               find out more and sponsor Graham
             </a>
             !
@@ -495,4 +490,3 @@ function getGeoJSON() {
     name: 'Virtual Cycle Ride route'
   }
 }
-
